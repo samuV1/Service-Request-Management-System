@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Service_Request_Management_System.props" />
+</Project>
