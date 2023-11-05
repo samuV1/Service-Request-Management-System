@@ -31,7 +31,7 @@ namespace Service_Request_Management_System.Models
         // Propriedade de navegação | Criando chave estrangeira User 1 - N Notice
         public List<Notice> Notice { get; set; }
 
-        // Propriedade de navegação | Criando chave estrangeira User 1 - N Tiket
+        // Propriedade de navegação | Criando chave estrangeira User 1 - N Ticket
         public List<Ticket> Ticket { get; set; }
 
         //Propriedade de navegação | Criando chave estrangeira Department 1 - N User

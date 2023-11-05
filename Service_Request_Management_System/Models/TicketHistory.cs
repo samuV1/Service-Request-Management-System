@@ -16,7 +16,7 @@ namespace Service_Request_Management_System.Models
         public string URLTicketRegistration { get; set; }
 
         [Required]
-        public Ticket OTicketO { get; set; }
+        public string OTicketO { get; set; }
 
         // Propriedade de navegação | Criando chave estrangeira TicketHistory 1 - 1 Ticket
         public int TicketId { get; set; }

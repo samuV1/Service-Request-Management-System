@@ -28,7 +28,7 @@ namespace Service_Request_Management_System.Models
 
         [Required]
         [Display(Name = "Data de Aquisição")]
-        public DateOnly DateAcquisition { get; set; }
+        public DateTime DateAcquisition { get; set; }
 
         //Propriedade de navegação | Criando chave estrangeira Department 1 - N Equipment
         public int DepartmentId { get; set; }

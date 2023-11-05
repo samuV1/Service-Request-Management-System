@@ -64,11 +64,8 @@ namespace Service_Request_Management_System.Models
 
 
         // Propriedade de navegação | Criando chave estrangeira User 1 - N Ticket
-        public int AuthorId { get; set; }
-        public virtual User UserAuthor { get; set; }
-
-        public int AnalistId { get; set; }
-        public virtual User UserAnalyst { get; set; }
+        public int UserId { get; set; }
+        public virtual User User { get; set; }
 
         // Propriedade de navegação | Criando chave estrangeira Department 1 - N Ticket
         public int DepartmentId { get; set; }
